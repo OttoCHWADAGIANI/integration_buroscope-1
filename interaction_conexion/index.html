@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+  <body>
+
+    <div id="app">
+      <nav id="navigation">
+        <ul>
+          <li>
+            <a id="burger" href="#navigation"></a>
+          </li>
+          <li>
+            <a href="#">link 1</a>
+          </li>
+          <li>
+            <a href="#">link 2</a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href="#connection">Connection</a>
+          </li>
+        </ul>
+      </nav>
+
+      <main>
+        <section id="home">
+          <div class="background"></div>
+          <div class="content">
+            <h1 class="borderb" >Titre de page</h1>
+            <p>
+              onsequatur soluta quisque platea reiciendis, aliquam consequat animi risus do totam, culpa! Sociis, reprehenderit, consequuntur, itaque commodo facilisi! Veritatis? Quibusdam? Earum soluta molestie amet? Vehicula vero provident gravida. Voluptas velit, veritatis natus cum odit, leo, fusce, fusce architecto maxime rutrum, debitis corporis, eligendi, temporibus congue eget lobortis non quia dolore primis consequatur ut ultrices harum laboris eveniet? Potenti delectus dolorum! Inceptos autem ipsa amet atque! Volutpat. Nihil assumenda voluptates ornare unde reprehenderit! Diam laboriosam, excepturi per, tempus facere? Porta! Auctor illum reprehenderit lobortis penatibus? Dignissimos dui proident urna ad consectetur dolor nibh. Ullam magni aut. Quaerat, potenti consequat, diamlorem doloribus? Error aliquet. Consequuntur 
+            </p>
+          </div>
+        </section>
+        <section id="article">
+          <h2 class="borderc">Nos derniers articles</h2>
+          
+          <a class="card" href="#crevasse">
+            <figure>
+              <img src="assets/images/crevasse-p.jpg"  class="flash" alt="">
+              <figcaption>Titre de la Carte</figcaption>
+              <span>Voir +</span>
+            </figure>
+          </a>
+          <a class="card" href="#grotte">
+              <figure>
+                <img src="assets/images/grotte-p.jpg"  class="flash" alt="">
+                <figcaption>Titre de la Carte</figcaption>
+                <span>Voir +</span>
+              </figure>
+            </a>
+            <a class="card" href="#plaine">
+              <figure>
+                <img src="assets/images/plaine-p.jpg" alt="">
+                <figcaption>Titre de la Carte</figcaption>
+                <span>Voir +</span>
+              </figure>
+            </a>
+        </section>
+        <section id="plus">
+            <div class="content">
+              <h1 class="borderb">Titre de page</h1>
+                <div class="slider">
+                  <div class="slide" id="firstSlide">
+                    <img src="assets/images/crevasse-p.jpg" alt="">
+                    <span><h1>Les images de la mort</h1></span>
+                  </div>
+                  <div class="slide" id="secondSlide">
+                    <img src="assets/images/grotte-p.jpg" alt="">
+                  </div>
+                  <div class="slide" id="thirdSlide">
+                    <img src="assets/images/plaine-p.jpg" alt="">
+                  </div>
+                  <ul>
+                    <li><a href="#firstSlide"></a></li>
+                    <li><a href="#secondSlide"></a></li>
+                    <li><a href="#thirdSlide"></a></li>
+                  </ul>
+                </div>
+            </div>
+            <div class="background"></div>
+        </section>
+      </main>
+    </div>
+
+    <div id="connection">
+      <a id="close" href="#" >X</a>
+      <form>
+        <input type="text" placeholder="nom d'utilisateur" required />
+        <input type="password" placeholder="mot de passe" required />
+
+        <input type="submit" value="Se connecter" />
+      </form>
+    </div>
+
+    <div id="crevasse" class="zoom">
+      <a href="#" class="overlay"></a>
+      <img src="assets/images/crevasse.jpg" alt="">
+    </div>
+
+    <div id="grotte" class="zoom">
+        <a href="#" class="overlay"></a>
+        <img src="assets/images/grotte.jpg" alt="">
+      </div>
+
+      <div id="plaine" class="zoom">
+          <a href="#" class="overlay"></a>
+          <img src="assets/images/plaine.jpg" alt="">
+        </div>
+
+        
+
+  </body>
+</html>
